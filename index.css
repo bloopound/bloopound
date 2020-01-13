@@ -1,0 +1,103 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.white {
+  color: white;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #c2cad0;
+  background: #0ed1e3;
+}
+
+.welcome-quote {
+  font-size: 50px;
+  padding: 50px;
+  font-family: "IM Fell Great Primer SC", serif;
+  color: black;
+}
+
+.nav {
+  padding: 0.4em;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.fat {
+  font-weight: 700;
+}
+
+#work {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 100vh;
+  background: #14a76c;
+  color: #2c3531;
+}
+
+#img-work {
+  margin: 50px;
+  height: 30vh;
+  width: 30vh;
+}
+
+#img-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#tech {
+  height: 100vh;
+}
+
+#signup {
+  height: 100vh;
+  background: yellow;
+}
+
+.black {
+  color: black;
+}
+
+.cool {
+  background: #66ff66;
+}
+
+#empathy {
+  padding: 20px;
+  height: 40vh;
+}
+
+.green {
+  color: green;
+}
+
+.scroll {
+  margin-top: 10vh;
+  color: red;
+}
+
+.pointers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "IM Fell Great Primer SC", serif;
+}
+
+.second {
+  font-size: 2em;
+  padding: 30px;
+  font-family: "IM Fell Great Primer SC", serif;
+}

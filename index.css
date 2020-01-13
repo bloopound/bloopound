@@ -12,13 +12,13 @@ html {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  color: #c2cad0;
+
   background: #0ed1e3;
 }
 
 .welcome-quote {
-  font-size: 50px;
-  padding: 50px;
+  font-size: 1.5em;
+  margin: 0.5em;
   font-family: "IM Fell Great Primer SC", serif;
   color: black;
 }
@@ -38,7 +38,6 @@ html {
 #work {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   height: 100vh;
   background: #14a76c;
@@ -48,7 +47,6 @@ html {
 #img-work {
   margin: 50px;
   height: 30vh;
-  width: 30vh;
 }
 
 #img-div {
@@ -75,7 +73,6 @@ html {
 }
 
 #empathy {
-  padding: 20px;
   height: 40vh;
 }
 
@@ -84,7 +81,7 @@ html {
 }
 
 .scroll {
-  margin-top: 10vh;
+  margin-top: 20px;
   color: red;
 }
 

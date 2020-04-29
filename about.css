@@ -1,0 +1,199 @@
+body {
+  margin: 0px 5vw 0px 5vw;
+}
+
+body > footer {
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+
+.top_nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-top {
+  height: 20px;
+}
+
+.nav {
+  padding: 10px 0px 10px 0px;
+  border-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;  
+}
+
+.title {
+  font-family: "Century Gothic", Courier, monospace;
+  font-size: 30px;
+  text-decoration: none;
+  max-width: 50px;
+  margin: 10px 0px 10px 0px;
+}
+
+.nav-right {
+  float: right;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
+ } 
+
+.nav-right a {
+  border-right: 1px solid black;
+  display: inline;
+  text-decoration: none;
+  font-weight: lighter;
+  width: auto;
+  max-width: 50px;
+  padding: 10px;
+  color: black;
+}
+
+.nav-right a.last {
+  border-right: none;
+}
+
+.nav-bottom {
+  height: 20px;
+}
+
+  
+
+
+.about_bg {
+  position: relative;
+  background-image: url("images/about_bg.jpg");
+  background-size: cover;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+
+.maintext {
+  position: absolute;
+  top: 36%;
+  left: 20%;
+  padding: 20px;
+  font-family: 'Century Gothic';
+  font-size: 12vh;
+  color: whitesmoke;
+}
+
+
+
+
+#legacy {
+  height: max-content;
+}
+
+.text1 {
+  padding: 20px;
+  background-color: #191970;
+  color: whitesmoke;
+  font-size: large;
+}
+
+.titletext1 {
+  font-size: xx-large;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+}
+
+#old_office {
+    margin: 20px;
+    float: right;
+    height: 45vh;
+    width: 35vw;
+}
+  
+
+
+
+#Bloopound {
+}
+
+.text2 {
+  padding: 20px;
+  background-color: #FF8000;
+  color: whitesmoke;
+  font-size: large;
+}
+
+#bloopound {
+  margin: 20px;
+  float: left;
+  width: 25vw;
+  height: 45vh;
+}
+
+.titletext2 {
+  font-size: xx-large;
+  color: white; 
+}
+
+
+
+
+#CEO {
+}
+
+.text3 {
+  padding: 20px;
+  background-color: #191970;
+  color: whitesmoke;
+  font-size: large;
+}
+
+.titletext3 {
+  font-size: xx-large;
+  color: white;
+}
+
+#ceo {
+  margin: 20px;
+  float: right;
+  width: 20%;
+  height: 30%; 
+}
+
+
+
+
+.footer-container {
+  background-image: url(images/footer_bg.jpg);
+  background-position: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0vw 8vw;
+  margin: none;
+  justify-content: center;
+  padding: 15px;
+}
+
+.fgrid-item {
+  color:rgba(35, 81, 180, 1);
+  padding: 10px 15px 10px 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#submit_button { 
+  background-color: rgba(171, 201, 224, 1);
+  opacity: 0.6;
+  border-radius: 5px;
+  min-width: 160px;
+  margin-top: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#submit_button:hover {
+  opacity: 1;
+}

@@ -1,0 +1,269 @@
+body {
+  margin: 0px 5vw 0px 5vw;
+}
+
+body > footer {
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+
+.top_nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-top {
+  height: 20px;
+}
+
+.nav {
+  padding: 10px 0px 10px 0px;
+  border-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;  
+}
+
+.title {
+  font-family: "Century Gothic", Courier, monospace;
+  font-size: 30px;
+  text-decoration: none;
+  max-width: 50px;
+  margin: 10px 0px 10px 0px;
+}
+
+.nav-right {
+  float: right;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
+ } 
+
+.nav-right a {
+  border-right: 1px solid black;
+  display: inline;
+  text-decoration: none;
+  font-weight: lighter;
+  width: auto;
+  max-width: 50px;
+  padding: 10px;
+  color: black;
+}
+
+.nav-right a.last {
+  border-right: none;
+}
+
+.nav-bottom {
+  height: 20px;
+}
+
+
+
+
+.container {
+  position: relative;
+  background-image: url("images/Desk_Pad.jpg");
+  height: 50vw;
+}
+
+.maintext {
+  position: absolute;
+  height: max-content;
+  width: max-content;
+  padding: 20px;
+  background-color: white;
+  top: 32%;
+  left: 36%;
+}
+
+.font1 {
+  text-align: center;
+  font: normal normal normal 22px/1.4em futura-lt-w01-book,sans-serif;
+}
+
+.font2 {
+  font: normal normal normal 30px/1.4em futura-lt-w01-book,sans-serif;
+}
+
+a.shop_now {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+a.shop_now:hover {
+  background-image: linear-gradient(white,wheat);
+}
+
+
+
+
+.shop-grid1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;  
+  width: 100%;
+}
+
+.shop-grid1 > div {
+  text-align: center;
+  font-size: 18px;
+}
+
+.item1 {
+  position: relative;
+}
+
+.shoptext {
+  position: absolute;
+  font-size: 2.5vh;
+  font-family: monospace;
+  top: 10%;
+  left: 30%;
+}
+
+.maintext2 {
+  font-family: sans-serif; 
+  font-size: 30px;
+}
+
+.item2 {
+  position: relative;
+}
+
+
+
+
+.shop-grid2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  grid-gap: 5vw;
+}
+
+.shop-grid2 > div {
+  text-align: center;
+  font-size: 18px;
+  width: 38%;
+  width: fit-content;
+}
+
+
+
+
+.footer-container {
+  background-image: url(images/footer_bg.jpg);
+  background-position: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0vw 8vw;
+  margin: none;
+  justify-content: center;
+  padding: 15px;
+}
+
+.fgrid-item {
+  color:rgba(35, 81, 180, 1);
+  padding: 10px 15px 10px 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#submit_button { 
+  background-color: rgba(171, 201, 224, 1);
+  opacity: 0.6;
+  border-radius: 5px;
+  min-width: 160px;
+  margin-top: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#submit_button:hover {
+  opacity: 1;
+}
+
+
+
+
+@media only screen and (max-width: 780px) {
+  body { 
+    margin: 0px 0px 0px 0px;
+  }
+
+
+
+  .nav-top {
+    height: 10px;
+  }
+
+  .nav {
+    padding: 5px 0px 5px 0px; 
+  }
+
+  .title {
+    font-size: 2.5vw;
+    width: 100vw;
+  }
+
+  .nav-right a {
+    max-width: 30px;
+    padding: 5px;
+  }
+
+  .nav-bottom {
+    height: 10px;
+  }
+
+  
+  
+  .container {
+    background-size: cover;
+  }
+  .maintext {
+   height: fit-content;
+   width: fit-content;
+   top: 22%;
+   left: 30%;
+  }
+
+  .font1 {
+    font: normal normal normal 16px/1.4em futura-lt-w01-book,sans-serif;
+  }
+
+  .font2 {
+    font: normal normal normal 22px/1.4em futura-lt-w01-book,sans-serif;
+  }
+
+
+
+  .shop-grid1 {
+    
+  }
+
+
+
+  .item1 {
+    width: 10vw;
+    height: 20vw;
+  }
+
+  .item2 {
+    width: 10vw;
+    height: 20vw;
+  }
+
+  .maintext2 {
+    font-size: 3vw;
+    justify-content: center;
+    align-content: center;
+  }
+} 
